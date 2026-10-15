@@ -1,0 +1,176 @@
+index.html
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa Agnese Lake View | Brenzone sul Garda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVIGAZIONE -->
+    <header class="navbar">
+        <div class="logo">Casa Agnese</div>
+        <nav>
+            <a href="#struttura">La Struttura</a>
+            <a href="#tariffe">Tariffe</a>
+            <a href="#recensioni">Recensioni</a>
+            <a href="#prenota" class="btn-nav">Prenota Ora</a>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-content">
+            <span class="location">Brenzone sul Garda, Lago di Garda</span>
+            <h1>Il tuo lago,<br>relax da sogno</h1>
+            <p>Casa vacanza esclusiva a Brenzone sul Garda: con accesso privato alla spiaggia, solarium con barbecue e vista lago da sogno. Tre locali per sei persone.</p>
+            <div class="hero-buttons">
+                <a href="#prenota" class="btn-primary">Richiedi disponibilità</a>
+                <a href="#struttura" class="btn-secondary">Scopri la struttura</a>
+            </div>
+            <div class="trust-badge">
+                <span>Nessuna commissione Airbnb</span> · 
+                <span>Comunicazione diretta</span> · 
+                <span>Flessibilità check-in/out</span> · 
+                <span>Prezzi migliori garantiti</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- DETTAGLI APPARTAMENTO -->
+    <section id="struttura" class="details">
+        <div class="section-title">
+            <span>L'Appartamento</span>
+            <h2>Il tuo angolo di lago</h2>
+            <p>Agnese è un appartamento curato nei dettagli, pensato per chi vuole vivere il lago vero: non un hotel, ma una casa con un'anima.</p>
+        </div>
+
+        <div class="grid-features">
+            <div class="feature-card">
+                <h3>Accesso privato alla spiaggia</h3>
+                <p>Una spiaggia di ciottoli tutta per voi: scendete direttamente al lago senza condividere la riva con nessuno.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Vista lago da ogni angolo</h3>
+                <p>L'appartamento è affacciato direttamente sul Garda. Il lago è sempre lì, a portata di sguardo.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Solarium con barbecue</h3>
+                <p>Una terrazza soleggiata attrezzata dove rilassarsi al sole e organizzare grigliate con vista lago.</p>
+            </div>
+            <div class="feature-card">
+                <h3>3 locali · 6 posti letto</h3>
+                <p>Spazio, comfort e privacy per famiglie o gruppi di amici: tre ambienti moderni e completamente arredati.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Arredato di tutto</h3>
+                <p>Cucina completa, biancheria, tutto il necessario per sentirsi a casa dal primo momento.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Brenzone sul Garda</h3>
+                <p>Un borgo autentico, tra i più belli del lago. Mercatini, ristorantini sul lungolago e natura vicina.</p>
+            </div>
+        </div>
+
+        <div class="quote-box">
+            <p>«Ogni giorno qui comincia con il silenzio del lago e la luce che filtra tra gli ulivi.»</p>
+        </div>
+    </section>
+
+    <!-- PREZZI -->
+    <section id="tariffe" class="prices">
+        <div class="section-title">
+            <span>Prezzi</span>
+            <h2>Tariffe dirette</h2>
+            <p>Prenotando qui risparmi le commissioni delle piattaforme. Stesso appartamento, prezzo migliore.</p>
+        </div>
+        <div class="price-cards">
+            <div class="p-card">
+                <h4>Bassa Stagione</h4>
+                <span class="months">ott – apr</span>
+                <span class="price">€300 <small>/ notte</small></span>
+            </div>
+            <div class="p-card highlighted">
+                <h4>Media Stagione</h4>
+                <span class="months">mag – giu · set</span>
+                <span class="price">€350 <small>/ notte</small></span>
+            </div>
+            <div class="p-card">
+                <h4>Alta Stagione</h4>
+                <span class="months">lug – ago</span>
+                <span class="price">€390 <small>/ notte</small></span>
+            </div>
+        </div>
+        <p class="price-notes">Soggiorno minimo 2 notti. Asciugamani e Lenzuola in dotazione. Pulizia finale inclusa.</p>
+    </section>
+
+    <!-- RECENSIONI -->
+    <section id="recensioni" class="reviews">
+        <div class="section-title">
+            <span>Cosa dicono gli ospiti</span>
+            <h2>Recensioni</h2>
+        </div>
+        <div class="review-slider">
+            <div class="review-card">
+                <span class="stars">★★★★★</span>
+                <p>"La vista dal balcone e dal giardino era persino più bella del previsto... Grazie infinite per questo fantastico alloggio."</p>
+                <span class="author">Johanna (Germania)</span>
+            </div>
+            <div class="review-card">
+                <span class="stars">★★★★★</span>
+                <p>"Splendido appartamento in posizione eccellente con una magnifica vista diretta sul lago... pulitissimo e confortevole."</p>
+                <span class="author">Ayelet (Israele)</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRENOTAZIONE -->
+    <section id="prenota" class="booking">
+        <div class="booking-container">
+            <div class="booking-text">
+                <h2>Prenota Direttamente</h2>
+                <p>Compila il form e ti rispondo entro 24 ore per confermare le date e i dettagli del soggiorno.</p>
+                <a href="https://wa.me" class="btn-whatsapp">Scrivici su WhatsApp</a>
+            </div>
+            <form class="booking-form">
+                <input type="text" placeholder="Nome e cognome" required>
+                <input type="email" placeholder="Email" required>
+                <div class="form-row">
+                    <input type="date" placeholder="Check-in" required>
+                    <input type="date" placeholder="Check-out" required>
+                </div>
+                <div class="form-row">
+                    <input type="number" placeholder="Ospiti" min="1" max="6" required>
+                    <input type="tel" placeholder="Telefono (opzionale)">
+                </div>
+                <textarea placeholder="Note o richieste speciali" rows="4"></textarea>
+                <button type="submit" class="btn-submit">Richiedi disponibilità</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- COME RAGGIUNGERCI -->
+    <section class="directions">
+        <h3>Come raggiungerci a Brenzone</h3>
+        <div class="dir-grid">
+            <div>
+                <strong>In auto:</strong> Uscita autostrada A22 Affi, poi SP249 Gardesana lungo il lago. Parcheggio incluso.
+            </div>
+            <div>
+                <strong>In treno:</strong> Stazione di Verona Porta Nuova, poi navetta o taxi verso il lago (circa 45 min).
+            </div>
+            <div>
+                <strong>In aereo:</strong> Aeroporto di Verona (VRN) a 55 km, oppure Bergamo (BGY) a 90 km.
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 Casa Agnese · Brenzone sul Garda, Lago di Garda · Tutti i diritti riservati</p>
+    </footer>
+
+</body>
+</html>
